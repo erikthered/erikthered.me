@@ -27,6 +27,21 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '0.45rem 1.0875rem',
+      }}>
+      <Link 
+        to="/pages/resume"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}>
+        Resume
+      </Link>
+    </div>
   </div>
 )
 
