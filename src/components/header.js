@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
         padding: '0.45rem 1.0875rem',
       }}>
       <Link 
-        to="/pages/resume"
+        to="/resume"
         style={{
           color: 'white',
           textDecoration: 'none',

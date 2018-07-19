@@ -23,7 +23,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allFile(filter:{relativeDirectory:{eq:"posts"}, extension:{eq:"md"}}) {
+    allFile(filter:{sourceInstanceName:{eq:"posts"}}) {
       totalCount
       edges {
         node {
