@@ -6,14 +6,14 @@ export default ({ data }) => {
   return (
     <div>
       <h2>Posts:</h2>
-      {data.allFile.edges.map(({ node }) => (
-        <div key={node.childMarkdownRemark.id}>
+      {data.allFile.edges.map(({ node: {childMarkdownRemark : node} }) => (
+        <div key={node.id}>
           <Link
-            to={node.childMarkdownRemark.fields.slug}
+            to={node.fields.slug}
             css={{ textDecoration: `none`, color: `inherit` }}
           >
-            <h3>{node.childMarkdownRemark.frontmatter.title}{" "}- {node.childMarkdownRemark.frontmatter.date}</h3>
-            <p>{node.childMarkdownRemark.excerpt}</p>
+            <h3>{node.frontmatter.title}{" "}- {node.frontmatter.date}</h3>
+            <p>{node.excerpt}</p>
           </Link>
         </div>
       ))}
@@ -23,11 +23,11 @@ export default ({ data }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allFile(filter:{sourceInstanceName:{eq:"posts"}}) {
+    allFile(filter:{relativeDirectory:{eq:"posts"}}) {
       totalCount
       edges {
         node {
-          childMarkdownRemark{
+          childMarkdownRemark {
             id
             frontmatter {
               title

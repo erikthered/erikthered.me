@@ -10,7 +10,6 @@ Backend:
 * Spring
 * Play Framework
 * jOOQ
-* Guice
 
 Database:
 * PostgreSQL
