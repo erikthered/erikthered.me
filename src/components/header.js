@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         maxWidth: 960,
         padding: '0.45rem 1.0875rem',
       }}>
-      <Link 
+      <Link
         to="/resume"
         style={{
           color: 'white',

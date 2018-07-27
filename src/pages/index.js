@@ -6,7 +6,7 @@ export default ({ data }) => {
   return (
     <div>
       <h2>Posts:</h2>
-      {data.allFile.edges.map(({ node: {childMarkdownRemark : node} }) => (
+      {data.allFile.edges.map(({ node: { childMarkdownRemark: node } }) => (
         <div key={node.id}>
           <Link
             to={node.fields.slug}

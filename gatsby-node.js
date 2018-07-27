@@ -43,7 +43,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         }
         `).then(result => {
-        result.data.allFile.edges.forEach(({node: {childMarkdownRemark : node}}) => {
+        result.data.allFile.edges.forEach(({ node: { childMarkdownRemark: node } }) => {
           createPage({
             path: node.fields.slug,
             component: path.resolve(`./src/components/blog-post.js`),
