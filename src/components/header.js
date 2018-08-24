@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'indianred',
       marginBottom: '1.45rem',
     }}
   >
@@ -32,13 +32,15 @@ const Header = ({ siteTitle }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '0.45rem 1.0875rem',
-      }}>
+      }}
+    >
       <Link
         to="/resume"
         style={{
           color: 'white',
           textDecoration: 'none',
-        }}>
+        }}
+      >
         Resume
       </Link>
     </div>

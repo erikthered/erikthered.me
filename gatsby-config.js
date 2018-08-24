@@ -4,6 +4,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: 'src/utils/typography.js',
+      },
+    },
     'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
@@ -11,6 +17,6 @@ module.exports = {
         name: `pages`,
         path: `${__dirname}/src/pages/`,
       },
-    }
+    },
   ],
 }
