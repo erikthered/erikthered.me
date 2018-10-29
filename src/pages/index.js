@@ -1,26 +1,29 @@
 import React from 'react'
+import Layout from "../components/layout"
 import Link from 'gatsby-link'
 
 export default ({ data }) => {
   console.log(data)
   return (
-    <div>
-      <p>The site is still under construction, please pardon the mess!</p>
-      <h2>Posts:</h2>
-      {data.allFile.edges.map(({ node: { childMarkdownRemark: node } }) => (
-        <div key={node.id}>
-          <Link
-            to={node.fields.slug}
-            style={{ textDecoration: `none`, color: `inherit` }}
-          >
-            <h3>
-              {node.frontmatter.title} - {node.frontmatter.date}
-            </h3>
-            <p>{node.excerpt}</p>
-          </Link>
-        </div>
-      ))}
-    </div>
+    <Layout>
+      <div>
+        <p>The site is still under construction, please pardon the mess!</p>
+        <h2>Posts:</h2>
+        {data.allFile.edges.map(({ node: { childMarkdownRemark: node } }) => (
+          <div key={node.id}>
+            <Link
+              to={node.fields.slug}
+              style={{ textDecoration: `none`, color: `inherit` }}
+            >
+              <h3>
+                {node.frontmatter.title} - {node.frontmatter.date}
+              </h3>
+              <p>{node.excerpt}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </Layout>
   )
 }
 

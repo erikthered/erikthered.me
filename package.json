@@ -4,12 +4,16 @@
   "version": "1.0.0",
   "author": "Erik Nelson <erik.david.nelson@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "react-helmet": "^5.2.0"
+    "gatsby": "^2.0.31",
+    "gatsby-link": "^2.0.1",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-source-filesystem": "^2.0.5",
+    "gatsby-transformer-remark": "^2.1.9",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17"
   },
   "keywords": [
     "gatsby"
@@ -22,8 +26,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gatsby-plugin-typography": "^1.7.19",
-    "prettier": "^1.12.0",
+    "gatsby-plugin-typography": "^2.2.0",
+    "prettier": "^1.14.3",
     "typography-theme-github": "^0.15.10"
   },
   "repository": {

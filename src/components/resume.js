@@ -1,8 +1,13 @@
 import React from 'react'
+import Layout from './layout'
 
 export default ({ data }) => {
   const content = data.file.childMarkdownRemark
-  return <div dangerouslySetInnerHTML={{ __html: content.html }} />
+  return (
+    <Layout>
+      <div dangerouslySetInnerHTML={{ __html: content.html }} />
+    </Layout>
+  )
 }
 
 export const query = graphql`
