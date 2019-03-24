@@ -30,8 +30,22 @@ Other:
 
 ## Work Experience
 
-**Senior Software Engineer** - Sipree, Inc.  
-_August 2017 - Present_
+**Senior Software Engineer** - SmartPay Leasing
+_January 2019 - Present_
+
+* Member of SRE team, split responsibilities between application development and infrastructure management
+* Responsible for enhancing and supporting several Ruby on Rails and Java 8 applications
+* Transitioned engineering team members from using Vagrant-based local environment to using Docker Compose
+* Automated infrastructure and configuration changes using Terraform and Ansible
+* Worked to upgrade dependencies which were out of date with minimal downtime
+* Migrated repository tooling from GitHub + Travis CI to GitLab
+* Participated in production support activities
+* Wrote technical articles to facilite bringing engineering teams' practices up to date
+* Helped establish team standards and institute best practices using CI and other tooling
+* Participated in regular pair programming and code review sessions
+
+**Senior Software Engineer** - Sipree, Inc.
+_August 2017 - January 2019_
 
 Core developer on B2C SaaS payments solution built on Java 8, Play Framework, Docker and AWS.
 
@@ -43,7 +57,7 @@ Core developer on B2C SaaS payments solution built on Java 8, Play Framework, Do
 * Wrote integrations for several payment networks
 * Developed build pipelines using Travis CI, sbt and Jitpack.
 
-**Services Engineer** - Kroger  
+**Services Engineer** - Kroger
 _September 2015 - August 2017_
 
 Member of team responsible for APIs used to personalize customer experiences on the websites and apps for Kroger's various banners.
@@ -52,13 +66,13 @@ Member of team responsible for APIs used to personalize customer experiences on 
 * Created and improved many CI/CD pipelines for team owned applications, first using Bitbucket + TeamCity and later using Gitlab. Also maintained related deploy scripts.
 * Wrote several Gradle plugins for common tasks and enforcing team standards.
 * Wrote several Ansible playbooks and roles in order to automate ops tasks deployments. Helped champion Ansible adoption within the organization.
-* Participated in on-call support rotation for all team-owned applications. Utilized AppDynamics and Dynatrace APM tools in addition to an in-house log aggregation solution built on ElasticSearch and Kibana. 
+* Participated in on-call support rotation for all team-owned applications. Utilized AppDynamics and Dynatrace APM tools in addition to an in-house log aggregation solution built on ElasticSearch and Kibana.
 * Contributed back to several open source projects used in project work.
 * Planning and development conducted using the SAFe methodology.
 * Participated in pair programming and code reviews.
 * Evangelized the use of Kotlin within the Kroger Digital organization. Conducted a lunch & learn session on the language and helped teams to start using it in their projects.
 
-**Consultant** - Illumination Works  
+**Consultant** - Illumination Works
 _March 2015 - September 2017_
 
 Project: Kroger Digital
@@ -71,7 +85,7 @@ Member of team responsible for developing and maintaining web service APIs core 
 * Wrote unit and integration tests for new functionality added to the APIs
 * Documented APIs using Swagger/OpenAPI
 
-**Software Engineer** - Tata Consultancy Services  
+**Software Engineer** - Tata Consultancy Services
 _July 2009 - February 2015_
 
 * Core contributor to portal component for SaaS ERP product marketed to emerging markets
@@ -85,5 +99,5 @@ Reduced project codebase by 2/3 and improved performance.
 * Acted as Scrum Master for team during final year on the project
 
 ## Education
-**B.S. Management** Purdue University _2009_  
+**B.S. Management** Purdue University _2009_
 Minors: MIS, Economics
