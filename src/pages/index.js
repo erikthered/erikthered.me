@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <div>
