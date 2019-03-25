@@ -7,8 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <p>The site is still under construction, please pardon the mess!</p>
-        <h2>Posts:</h2>
+        <h2>Blog Posts:</h2>
         {data.allFile.edges.map(({ node: { childMarkdownRemark: node } }) => (
           <div key={node.id}>
             <Link
