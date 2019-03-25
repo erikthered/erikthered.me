@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from './layout'
+import { graphql } from 'gatsby'
 
 export default ({ data }) => {
   const content = data.file.childMarkdownRemark
