@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'erikthered.me',
+    description: 'Erik Nelson\'s site',
+    keywords: ['blog', 'programming', 'personal site']
   },
   plugins: [
     'gatsby-plugin-react-helmet',
