@@ -1,0 +1,7 @@
+.post-list-item {
+    padding: 0 0.25em 0.5em;
+}
+
+.post-list-item:hover {
+    background-color: hsla(0, 0%, 95%, 0.5);
+}
