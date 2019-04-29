@@ -21,9 +21,7 @@ export default ({ data }) => {
             return 0
           })
           .map(node => (
-            <div
-              key={node.id}
-              className="post-list-item">
+            <div key={node.id} className="post-list-item">
               <Link
                 to={node.fields.slug}
                 style={{ textDecoration: `none`, color: `inherit` }}
