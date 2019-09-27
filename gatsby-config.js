@@ -1,13 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: 'erikthered.me',
-    description: 'Erik Nelson\'s site',
+    description: "Erik Nelson's site",
     keywords: ['blog', 'programming', 'personal site'],
     siteUrl: `https://www.erikthered.me`,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require('tailwindcss'), require('autoprefixer')],
+      },
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -28,7 +34,7 @@ module.exports = {
             },
           },
         ],
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -61,7 +67,7 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
             },
@@ -83,11 +89,11 @@ module.exports = {
               }
             }
           `, // TODO filter this in a more meaningful way
-            output: "/posts/rss.xml",
+            output: '/posts/rss.xml',
             title: "Your Site's RSS Feed",
           },
         ],
-      }
-    }
+      },
+    },
   ],
 }
