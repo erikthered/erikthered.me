@@ -31,7 +31,7 @@
   "devDependencies": {
     "gatsby-plugin-typography": "^2.2.0",
     "prettier": "^1.14.3",
-    "typography-theme-github": "^0.15.10"
+    "typography-theme-github": "^0.16.19"
   },
   "repository": {
     "type": "git",
