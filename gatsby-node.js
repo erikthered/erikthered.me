@@ -22,11 +22,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
-    createPage({
-      path: `/resume`,
-      component: path.resolve(`./src/components/resume.js`),
-    })
-
     graphql(`
       {
         allFile(filter: { relativeDirectory: { eq: "posts" } }) {
@@ -46,7 +41,7 @@ exports.createPages = ({ graphql, actions }) => {
         ({ node: { childMarkdownRemark: node } }) => {
           createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/components/blog-post.js`),
+            component: path.resolve(`./src/components/blog/post.js`),
             context: {
               slug: node.fields.slug,
             },
