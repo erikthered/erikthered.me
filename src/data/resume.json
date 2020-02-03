@@ -1,146 +1,161 @@
-[{
-  "name": "Erik Nelson",
-  "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
-  },
-  "info": {
-    "label": "Senior Software Engineer",
-    "brief": "Software engineer with strong experience in web technologies and JVM languages. Interests in 12 factor applications, devops, containerization and cloud technologies."
-  },
-  "contact": {
-    "website": "https://erikthered.me",
-    "phone": "513-549-7155",
-    "email": "erik.david.nelson@gmail.com"
-  },
-  "location": {
-    "address": "",
-    "city": "Cleveland",
-    "region": "Ohio",
-    "code": "",
-    "country": "US"
-  },
-  "social": [
-    {
-      "label": "",
-      "network": "GitHub",
-      "user": "erikthered",
-      "url": "https://github.com/erikthered"
-    }
-  ],
-  "employment": {
-    "summary": "",
-    "history": [
+[
+  {
+    "name": "Erik Nelson",
+    "meta": {
+      "format": "FRESH@0.6.0",
+      "version": "0.1.0"
+    },
+    "info": {
+      "label": "Senior Software Engineer",
+      "brief": "Software engineer with strong experience in web technologies and JVM languages. Interests in 12 factor applications, devops, containerization and cloud technologies."
+    },
+    "contact": {
+      "website": "https://erikthered.me",
+      "phone": "216-232-0952",
+      "email": "erik.david.nelson@gmail.com"
+    },
+    "location": {
+      "address": "",
+      "city": "Cleveland",
+      "region": "Ohio",
+      "code": "",
+      "country": "US"
+    },
+    "social": [
       {
-        "employer": "SmartPay Leasing",
-        "url": "https://www.smartpaylease.com",
-        "position": "Senior Software Engineer",
-        "summary": "Software developer on smartphone leasing plaform, including devops responsibilities.",
-        "start": "2019-01",
-        "keywords": [
-          "ruby",
-          "java",
-          "aws",
-          "mysql",
-          "docker"
-        ],
-        "highlights": [
-          "Developed Identity Verification web application using React, AWS Lambda, Ruby and MySQL",
-          "Transitioned developer environment from Vagrant to Docker & Docker Compose",
-          "Improved CI pipelines and test suites for existing applications",
-          "Maintained and enhanced existing Ruby on Rails applications",
-          "Provisioned and configured AWS resources including networking, VPCs and API Gateway",
-          "Automated infrastructure tasks using Terraform, CloudFormation and Ansible"
-        ]
-      },
-      {
-        "employer": "Sipree",
-        "url": "https://www.sipree.com",
-        "position": "Senior Software Engineer",
-        "summary": "Developed microservices for SaaS payments platform",
-        "start": "2017-08",
-        "end": "2019-01",
-        "keywords": [
-          "java",
-          "play framework",
-          "postgresql",
-          "docker",
-          "aws",
-          "github"
-        ],
-        "highlights": [
-          "Developed REST API services using Java 8, Play Framework and PostgreSQL",
-          "Refactored blocking code to be asynchronous using Completable Futures",
-          "Packaged and deployed applications using Docker and AWS Elastic Beanstalk",
-          "Wrote client libraries for consuming third-party services using Kotlin and OkHttp",
-          "Implemented per-customer workflows using JavaScript and Nashorn"
-        ]
-      },
-      {
-        "employer": "Kroger Digital",
-        "url": "https://www.kroger.com",
-        "position": "Services Engineer",
-        "summary": "Developed microservices supporting personalized experiences in Kroger's mobile apps and websites",
-        "start": "2015-02",
-        "end": "2017-08",
-        "keywords": [
-          "java",
-          "spring boot",
-          "apache kafka",
-          "neo4j",
-          "docker",
-          "pivotal cloud foundry",
-          "gitlab"
-        ],
-        "highlights": [
-          "Developed microservices providing REST APIs using Java and Spring Boot",
-          "Built AOP plugin for collecting HTTP metrics in Spring",
-          "Participated in on-call rotation, utilizing tools including APM and log aggregation to diagnose production issues",
-          "Piloted Kotlin for backend development and evangelized within the organization",
-          "Developed data ingestion and processing pipeline using Kafka, Neo4j and Spring Boot services",
-          "Automated infrastructure tasks using Ansible",
-          "Migrated team from BitBucket and TeamCity to GitLab for project hosting and CI"
-        ]
-      },
-      {
-        "employer": "Tata Consultancy Services",
-        "url": "https://www.tcs.com",
-        "position": "Systems Engineer",
-        "summary": "Developer on SaaS ERP software for small & medium businesses",
-        "start": "2009-06",
-        "end": "2015-02",
-        "keywords": [
-          "java",
-          "spring",
-          "mysql",
-          "apache wicket",
-          "chef",
-          "git"
-        ],
-        "highlights": [
-          "Performed full-stack development on portal SPA using jQuery frontend and Java backend",
-          "Developed and maintained authentication and authorization functionality in Java backend",
-          "Planned and executed rewrite of backend, migrating from Java 5 and Apache Struts to Java 7, Spring and Apache Wicket",
-          "Built modern development infrastructure for team, including Jenkins CI and Git repository hosting",
-          "Automated common infrastructure tasks with Chef"
-        ]
+        "label": "",
+        "network": "GitHub",
+        "user": "erikthered",
+        "url": "https://github.com/erikthered"
       }
-    ]
-  },
-  "education": {
-    "summary": "",
-    "level": "degree",
-    "degree": "BS",
-    "history": [
+    ],
+    "employment": {
+      "summary": "",
+      "history": [
+        {
+          "employer": "SmartPay Leasing",
+          "url": "https://www.smartpaylease.com",
+          "position": "Senior Software Engineer",
+          "summary": "Software developer on smartphone leasing plaform, including devops responsibilities.",
+          "start": "2019-01",
+          "keywords": ["ruby", "java", "aws", "mysql", "docker"],
+          "highlights": [
+            "Developed Identity Verification web application using React, AWS Lambda, Ruby and MySQL",
+            "Transitioned developer environment from Vagrant to Docker & Docker Compose",
+            "Improved CI pipelines and test suites for existing applications",
+            "Maintained and enhanced existing Ruby on Rails applications",
+            "Provisioned and configured AWS resources including networking, VPCs and API Gateway",
+            "Automated infrastructure tasks using Terraform, CloudFormation and Ansible"
+          ]
+        },
+        {
+          "employer": "Sipree",
+          "url": "https://www.sipree.com",
+          "position": "Senior Software Engineer",
+          "summary": "Developed microservices for SaaS payments platform",
+          "start": "2017-08",
+          "end": "2019-01",
+          "keywords": [
+            "java",
+            "play framework",
+            "postgresql",
+            "docker",
+            "aws",
+            "github"
+          ],
+          "highlights": [
+            "Developed REST API services using Java 8, Play Framework and PostgreSQL",
+            "Refactored blocking code to be asynchronous using Completable Futures",
+            "Packaged and deployed applications using Docker and AWS Elastic Beanstalk",
+            "Wrote client libraries for consuming third-party services using Kotlin and OkHttp",
+            "Implemented per-customer workflows using JavaScript and Nashorn"
+          ]
+        },
+        {
+          "employer": "Kroger Digital",
+          "url": "https://www.kroger.com",
+          "position": "Services Engineer",
+          "summary": "Developed microservices supporting personalized experiences in Kroger's mobile apps and websites",
+          "start": "2015-02",
+          "end": "2017-08",
+          "keywords": [
+            "java",
+            "spring boot",
+            "apache kafka",
+            "neo4j",
+            "docker",
+            "pivotal cloud foundry",
+            "gitlab"
+          ],
+          "highlights": [
+            "Developed microservices providing REST APIs using Java and Spring Boot",
+            "Built AOP plugin for collecting HTTP metrics in Spring",
+            "Participated in on-call rotation, utilizing tools including APM and log aggregation to diagnose production issues",
+            "Piloted Kotlin for backend development and evangelized within the organization",
+            "Developed data ingestion and processing pipeline using Kafka, Neo4j and Spring Boot services",
+            "Automated infrastructure tasks using Ansible",
+            "Migrated team from BitBucket and TeamCity to GitLab for project hosting and CI"
+          ]
+        },
+        {
+          "employer": "Tata Consultancy Services",
+          "url": "https://www.tcs.com",
+          "position": "Systems Engineer",
+          "summary": "Developer on SaaS ERP software for small & medium businesses",
+          "start": "2009-06",
+          "end": "2015-02",
+          "keywords": [
+            "java",
+            "spring",
+            "mysql",
+            "apache wicket",
+            "chef",
+            "git"
+          ],
+          "highlights": [
+            "Performed full-stack development on portal SPA using jQuery frontend and Java backend",
+            "Developed and maintained authentication and authorization functionality in Java backend",
+            "Planned and executed rewrite of backend, migrating from Java 5 and Apache Struts to Java 7, Spring and Apache Wicket",
+            "Built modern development infrastructure for team, including Jenkins CI and Git repository hosting",
+            "Automated common infrastructure tasks with Chef"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "summary": "",
+      "level": "degree",
+      "degree": "BS",
+      "history": [
+        {
+          "institution": "Purdue University",
+          "title": "B.S. Management",
+          "url": "https://purdue.edu",
+          "start": "2005-09",
+          "end": "2009-06",
+          "summary": "B.S. in Management with minors in Economics and MIS",
+          "curriculum": []
+        }
+      ]
+    },
+    "skills": [
       {
-        "institution": "Purdue University",
-        "title": "B.S. Management",
-        "url": "https://purdue.edu",
-        "start": "2005-09",
-        "end": "2009-06",
-        "summary": "B.S. in Management with minors in Economics and MIS",
-        "curriculum": []
+        "name": "Programming Languages",
+        "keywords": ["Kotlin", "Java", "Ruby", "JavaScript"]
+      },
+      {
+        "name": "Frameworks/Libraries",
+        "keywords": ["Spring Boot", "Ruby on Rails", "React"]
+      },
+      {
+        "name": "Areas of Expertise",
+        "keywords": [
+          "Containers",
+          "Cloud",
+          "Infrastructure Automation",
+          "Serverless"
+        ]
       }
     ]
   }
-}]
+]

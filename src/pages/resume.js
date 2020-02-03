@@ -31,6 +31,17 @@ export default ({ data }) => {
             </a>
           </p>
         </section>
+        <section name="skills">
+          <header className="my-4">
+            <h3 className="font-bold">Skills</h3>
+            {resume.skills.map(skill => (
+              <p>
+                <span className="font-bold">{skill.name}: </span>{' '}
+                {skill.keywords.join(', ')}
+              </p>
+            ))}
+          </header>
+        </section>
         <section name="work-experience">
           <header className="my-4">
             <h3 className="font-bold">Work Experience</h3>
@@ -56,7 +67,6 @@ export default ({ data }) => {
             </article>
           ))}
         </section>
-        <section name="skills"></section>
         <section name="education"></section>
       </div>
     </div>
@@ -88,6 +98,10 @@ export const query = graphql`
           end
           highlights
         }
+      }
+      skills {
+        name
+        keywords
       }
     }
   }
