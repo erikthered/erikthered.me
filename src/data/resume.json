@@ -23,10 +23,19 @@
     },
     "social": [
       {
-        "label": "",
+        "network": "DEV",
+        "user": "erikthered",
+        "url": "https://dev.to/erikthered"
+      },
+      {
         "network": "GitHub",
         "user": "erikthered",
         "url": "https://github.com/erikthered"
+      },
+      {
+        "network": "LinkedIn",
+        "user": "erikdavidnelson",
+        "url": "https://www.linkedin.com/in/erikdavidnelson/"
       }
     ],
     "employment": {

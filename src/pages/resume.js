@@ -29,6 +29,21 @@ export default ({ data }) => {
                 </a>
               </p>
             </section>
+            <section name="social">
+              <ul>
+                {resume.social.map(persona => (
+                  <li className="my-0">
+                    {persona.network}:{' '}
+                    <a
+                      className="text-blue-700 hover:text-blue-600"
+                      href={persona.url}
+                    >
+                      {persona.user}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
             <section name="education"></section>
           </article>
           <article class="w-1/2 ml-2 my-2 py-2 px-4 border-2 border-black">
@@ -67,6 +82,11 @@ export const query = graphql`
       }
       contact {
         email
+      }
+      social {
+        network
+        user
+        url
       }
       location {
         city
