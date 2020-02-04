@@ -2,13 +2,13 @@ import React from 'react'
 
 export default ({ skillset }) => {
   return (
-    <React.Fragment>
-      <li className="text-sm italic">{skillset.name}:</li>
-      <ul className="flex flex-row text-xs">
+    <li className="text-sm italic font-semibold">
+      {skillset.name}:
+      <ul className="flex flex-row text-sm">
         {skillset.keywords.map(skill => (
-          <li className="rounded bg-gray-400 px-2 mx-2">{skill}</li>
+          <li className="rounded bg-gray-400 px-2 mx-2 print:px-0">{skill}</li>
         ))}
       </ul>
-    </React.Fragment>
+    </li>
   )
 }

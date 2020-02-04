@@ -6,9 +6,9 @@ import { graphql } from 'gatsby'
 export default ({ data }) => {
   return (
     <Layout>
-      <div class="flex">
-        <section class="w-3/4 mr-12">
-          <h2 class="font-bold">Latest Blog Posts:</h2>
+      <div className="flex">
+        <section className="w-3/4 mr-12">
+          <h2 className="font-bold">Latest Blog Posts:</h2>
           {data.allFile.edges
             .map(({ node: { childMarkdownRemark: node } }) => node)
             .sort((a, b) => {
@@ -24,9 +24,9 @@ export default ({ data }) => {
               <BlogPostPreview node={node} />
             ))}
         </section>
-        <section class="w-1/4 mr-6">
+        <section className="w-1/4 mr-6">
           <header>
-            <h2 class="font-bold">About Me:</h2>
+            <h2 className="font-bold">About Me:</h2>
           </header>
           <p>
             I'm a web developer based out of Cleveland, OH. I have 10 years of

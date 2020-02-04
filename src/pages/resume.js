@@ -9,10 +9,10 @@ export default ({ data }) => {
   return (
     <div>
       <Helmet title="Erik Nelson's Resume" />
-      <div class="mx-4 print:text-sm print:m-0">
-        <div class="flex">
-          <article class="w-1/2 mr-2 my-2 py-2 px-4">
-            <h1 className="border-none text-4xl font-bold">{resume.name}</h1>
+      <div className="mx-4 print:m-0">
+        <div className="flex">
+          <article className="w-1/2 mr-2 my-2 py-2 px-4">
+            <h1 className="border-none text-5xl font-bold">{resume.name}</h1>
             <h2 className="border-none text-2xl">{resume.info.label}</h2>
             <section name="contact">
               <p>
@@ -46,7 +46,7 @@ export default ({ data }) => {
             </section>
             <section name="education"></section>
           </article>
-          <article class="w-1/2 ml-2 my-2 py-2 px-4 border-2 border-black">
+          <article className="w-1/2 ml-2 my-2 py-2 px-4 border-2 border-black">
             <section name="skills">
               <header>
                 <h3 className="font-bold text-xl mb-2">Top Skills</h3>

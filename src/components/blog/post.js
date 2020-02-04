@@ -7,13 +7,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <div class="my-2 py-2 flex">
-          <h1 class="text-2xl w-3/4">{post.frontmatter.title}</h1>
-          <h2 class="text-xs w-1/4 text-right self-end">
+        <div className="my-2 py-2 flex">
+          <h1 className="text-2xl w-3/4">{post.frontmatter.title}</h1>
+          <h2 className="text-xs w-1/4 text-right self-end">
             {post.frontmatter.date}
           </h2>
         </div>
-        <div class="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          className="markdown"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
     </Layout>
   )

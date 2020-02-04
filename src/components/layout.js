@@ -28,7 +28,7 @@ export default ({ children, location }) => (
             { name: 'keywords', content: data.site.siteMetadata.keywords },
           ]}
         />
-        <div class="container mx-auto">
+        <div className="container mx-auto">
           <Header siteTitle={data.site.siteMetadata.title} />
           <div>{children}</div>
         </div>
