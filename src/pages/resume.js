@@ -33,8 +33,8 @@ export default ({ data }) => {
               <section name="social" className="w-1/2 my-2">
                 <h4 className="font-semibold mb-1">Social</h4>
                 <ul className="ml-1">
-                  {resume.social.map(persona => (
-                    <li className="my-0">
+                  {resume.social.map((persona, idx) => (
+                    <li key={idx} className="my-0">
                       {persona.network}:{' '}
                       <a
                         className="text-blue-700 hover:text-blue-600"
@@ -48,8 +48,8 @@ export default ({ data }) => {
               </section>
               <section name="education" className="w-1/2 my-2">
                 <h4 className="font-semibold mb-1">Education</h4>
-                {resume.education.history.map(edu => (
-                  <p className="ml-1">
+                {resume.education.history.map((edu, idx) => (
+                  <p key={idx} className="ml-1">
                     {edu.institution} <br />
                     <span className="font-light">{edu.title}</span>
                   </p>
@@ -62,8 +62,8 @@ export default ({ data }) => {
               <header>
                 <h3 className="font-bold text-xl mb-2">Top Skills</h3>
                 <ul>
-                  {resume.skills.map(skill => (
-                    <SkillSet skillset={skill} />
+                  {resume.skills.map((skill, idx) => (
+                    <SkillSet key={idx} skillset={skill} />
                   ))}
                 </ul>
               </header>
@@ -74,8 +74,8 @@ export default ({ data }) => {
           <header className="my-4">
             <h3 className="font-bold text-xl">Work Experience</h3>
           </header>
-          {resume.employment.history.map(job => (
-            <Job job={job} />
+          {resume.employment.history.map((job, idx) => (
+            <Job key={idx} job={job} />
           ))}
         </section>
       </div>

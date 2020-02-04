@@ -21,7 +21,7 @@ export default ({ data }) => {
               return 0
             })
             .map(node => (
-              <BlogPostPreview node={node} />
+              <BlogPostPreview node={node} key={node.id} />
             ))}
         </section>
         <section className="w-1/4 mr-6">

@@ -15,8 +15,10 @@ export default ({ job }) => {
         </div>
       </header>
       <ul className="list-disc ml-6">
-        {job.highlights.map(highlight => (
-          <li className="my-0">{highlight}</li>
+        {job.highlights.map((highlight, idx) => (
+          <li key={idx} className="my-0">
+            {highlight}
+          </li>
         ))}
       </ul>
     </article>
