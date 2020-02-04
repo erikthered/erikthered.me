@@ -141,14 +141,19 @@
     "skills": [
       {
         "name": "Programming Languages",
-        "keywords": ["Kotlin", "Java", "Ruby", "JavaScript"]
+        "keywords": ["Kotlin", "JavaScript", "Ruby", "Java"]
       },
       {
         "name": "Frameworks/Libraries",
-        "keywords": ["Spring Boot", "Ruby on Rails", "React"]
+        "keywords": [
+          "React",
+          "Serverless Framework",
+          "Ruby on Rails",
+          "Spring Boot"
+        ]
       },
       {
-        "name": "Areas of Expertise",
+        "name": "Areas of Interest",
         "keywords": [
           "Containers",
           "Cloud",
