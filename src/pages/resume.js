@@ -29,22 +29,33 @@ export default ({ data }) => {
                 </a>
               </p>
             </section>
-            <section name="social">
-              <ul>
-                {resume.social.map(persona => (
-                  <li className="my-0">
-                    {persona.network}:{' '}
-                    <a
-                      className="text-blue-700 hover:text-blue-600"
-                      href={persona.url}
-                    >
-                      {persona.user}
-                    </a>
-                  </li>
+            <div className="flex">
+              <section name="social" className="w-1/2 my-2">
+                <h4 className="font-semibold mb-1">Social</h4>
+                <ul>
+                  {resume.social.map(persona => (
+                    <li className="my-0">
+                      {persona.network}:{' '}
+                      <a
+                        className="text-blue-700 hover:text-blue-600"
+                        href={persona.url}
+                      >
+                        {persona.user}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+              <section name="education" className="w-1/2 my-2">
+                <h4 className="font-semibold mb-1">Education</h4>
+                {resume.education.history.map(edu => (
+                  <p>
+                    {edu.institution} <br />
+                    <span className="font-light">{edu.title}</span>
+                  </p>
                 ))}
-              </ul>
-            </section>
-            <section name="education"></section>
+              </section>
+            </div>
           </article>
           <article className="w-1/2 ml-2 my-2 py-2 px-4 border-2 border-black">
             <section name="skills">
@@ -106,6 +117,12 @@ export const query = graphql`
       skills {
         name
         keywords
+      }
+      education {
+        history {
+          institution
+          title
+        }
       }
     }
   }
