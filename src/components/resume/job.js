@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ job }) => {
   return (
-    <article className={'p-2 ' + (job.end ? '' : 'bg-gray-400')}>
+    <article className="p-2">
       <header>
         <div className="flex flex-row items-center my-2">
           <h4 className="font-bold mr-8">{job.employer}</h4>

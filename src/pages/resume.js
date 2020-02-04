@@ -71,7 +71,7 @@ export default ({ data }) => {
           </article>
         </div>
         <section name="work-experience">
-          <header className="my-4">
+          <header className="my-2">
             <h3 className="font-bold text-xl">Work Experience</h3>
           </header>
           {resume.employment.history.map((job, idx) => (
