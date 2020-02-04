@@ -32,7 +32,7 @@ export default ({ data }) => {
             <div className="flex">
               <section name="social" className="w-1/2 my-2">
                 <h4 className="font-semibold mb-1">Social</h4>
-                <ul>
+                <ul className="ml-1">
                   {resume.social.map(persona => (
                     <li className="my-0">
                       {persona.network}:{' '}
@@ -49,7 +49,7 @@ export default ({ data }) => {
               <section name="education" className="w-1/2 my-2">
                 <h4 className="font-semibold mb-1">Education</h4>
                 {resume.education.history.map(edu => (
-                  <p>
+                  <p className="ml-1">
                     {edu.institution} <br />
                     <span className="font-light">{edu.title}</span>
                   </p>
