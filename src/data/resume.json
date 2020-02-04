@@ -47,11 +47,21 @@
           "position": "Senior Software Engineer",
           "summary": "Software developer on smartphone leasing plaform, including devops responsibilities.",
           "start": "2019-01",
-          "keywords": ["ruby", "java", "aws", "mysql", "docker"],
+          "keywords": [
+            "ruby",
+            "ruby on rails",
+            "java",
+            "spring",
+            "aws",
+            "mysql",
+            "docker",
+            "serverless framework",
+            "react"
+          ],
           "highlights": [
-            "Developed Identity Verification web application using React, AWS Lambda, Ruby and MySQL",
-            "Transitioned developer environment from Vagrant to Docker & Docker Compose",
-            "Improved CI pipelines and test suites for existing applications",
+            "Developed greenfield identity verification application using React, AWS Lambda, Ruby and MySQL",
+            "Modernized developer environments using Docker & Docker Compose",
+            "Implemented CI pipelines on GitLab utilizing advanced patterns such as parallel tasks",
             "Maintained and enhanced existing Ruby on Rails applications",
             "Provisioned and configured AWS resources including networking, VPCs and API Gateway",
             "Automated infrastructure tasks using Terraform, CloudFormation and Ansible"
@@ -70,40 +80,45 @@
             "postgresql",
             "docker",
             "aws",
-            "github"
+            "github",
+            "git",
+            "REST"
           ],
           "highlights": [
             "Developed REST API services using Java 8, Play Framework and PostgreSQL",
-            "Refactored blocking code to be asynchronous using Completable Futures",
+            "Refactored legacy code to be asynchronous to increase throughput of services",
             "Packaged and deployed applications using Docker and AWS Elastic Beanstalk",
-            "Wrote client libraries for consuming third-party services using Kotlin and OkHttp",
-            "Implemented per-customer workflows using JavaScript and Nashorn"
+            "Wrote client libraries for consuming third-party HTTP services using Kotlin and OkHttp",
+            "Implemented per-customer workflows using a JavaScript DSL"
           ]
         },
         {
           "employer": "Kroger Digital",
           "url": "https://www.kroger.com",
           "position": "Services Engineer",
-          "summary": "Developed microservices supporting personalized experiences in Kroger's mobile apps and websites",
+          "summary": "Developed microservices driving personalized experiences in Kroger's mobile apps and websites",
           "start": "2015-02",
           "end": "2017-08",
           "keywords": [
+            "kotlin",
             "java",
             "spring boot",
             "apache kafka",
             "neo4j",
             "docker",
             "pivotal cloud foundry",
-            "gitlab"
+            "gitlab",
+            "git",
+            "REST"
           ],
           "highlights": [
-            "Developed microservices providing REST APIs using Java and Spring Boot",
-            "Built AOP plugin for collecting HTTP metrics in Spring",
-            "Participated in on-call rotation, utilizing tools including APM and log aggregation to diagnose production issues",
-            "Piloted Kotlin for backend development and evangelized within the organization",
+            "Developed REST microservices driving customer-facing website and mobile applications",
+            "Piloted Kotlin for microservices development and evangelized within the organization",
             "Developed data ingestion and processing pipeline using Kafka, Neo4j and Spring Boot services",
-            "Automated infrastructure tasks using Ansible",
-            "Migrated team from BitBucket and TeamCity to GitLab for project hosting and CI"
+            "Built custom Gradle and Spring plugins in order to improve code quality and performance monitoring",
+            "Implemented and maintained CI pipelines in on-premise GitLab environment",
+            "Participated in on-call rotation, utilizing tools including APM and log aggregation to diagnose production issues",
+            "Scripted push-button deploys of Docker images to Pivotal Cloud Foundry"
           ]
         },
         {
@@ -119,14 +134,17 @@
             "mysql",
             "apache wicket",
             "chef",
-            "git"
+            "git",
+            "vagrant",
+            "jenkins"
           ],
           "highlights": [
-            "Performed full-stack development on portal SPA using jQuery frontend and Java backend",
-            "Developed and maintained authentication and authorization functionality in Java backend",
-            "Planned and executed rewrite of backend, migrating from Java 5 and Apache Struts to Java 7, Spring and Apache Wicket",
-            "Built modern development infrastructure for team, including Jenkins CI and Git repository hosting",
-            "Automated common infrastructure tasks with Chef"
+            "Developed web portal and authentication/authorization systems for SaaS ERP application",
+            "Rewrote legacy Struts web application using Java 7, Apache Wicket and Spring Core",
+            "Transitioned team from SVN to Git for source code management, including instructional sessions on Git usage",
+            "Enhanced developer environments using Vagrant and Chef",
+            "Setup and maintained Linux server for team development tools using kvm and libvirt for virtualized hosts",
+            "Provisioned Jenkins server and implemented CI pipelines for the team"
           ]
         }
       ]
