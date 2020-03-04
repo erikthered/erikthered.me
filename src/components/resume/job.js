@@ -9,7 +9,7 @@ export default ({ job }) => {
           <h5 className="italic">{job.position}</h5>
         </div>
         <div className="flex flex-row items-center mb-2">
-          <h6>
+          <h6 className="text-black">
             {job.start} - {job.end || 'Present'}
           </h6>
         </div>

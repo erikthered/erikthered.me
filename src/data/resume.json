@@ -112,7 +112,7 @@
             "REST"
           ],
           "highlights": [
-            "Developed REST microservices driving customer-facing website and mobile applications",
+            "Developed REST microservices for consumption by Kroger.com and the Kroger mobile app",
             "Piloted Kotlin for microservices development and evangelized within the organization",
             "Developed data ingestion and processing pipeline using Kafka, Neo4j and Spring Boot services",
             "Built custom Gradle and Spring plugins in order to improve code quality and performance monitoring",
