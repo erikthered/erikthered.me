@@ -42,11 +42,35 @@
       "summary": "",
       "history": [
         {
+          "employer": "HealthPrize Technologies",
+          "url": "https://healthprize.com",
+          "position": "Senior Software Engineer",
+          "summary": "Software developer on medication adherance platform",
+          "start": "2020-07",
+          "keywords": [
+            "kotlin",
+            "java",
+            "spring boot",
+            "mysql",
+            "react",
+            "typescript",
+            "docker",
+            "aws"
+          ],
+          "highlights": [
+            "Developed REST APIs backing consumer and administrative frontends",
+            "Enhanced Admin UI built with React and TypeScript",
+            "Performed deployments to production and non-production environments",
+            "Enhanced CI/CD pipelines using CircleCI"
+          ]
+        },
+        {
           "employer": "SmartPay Leasing",
           "url": "https://www.smartpaylease.com",
           "position": "Senior Software Engineer",
           "summary": "Software developer on smartphone leasing plaform, including devops responsibilities.",
           "start": "2019-01",
+          "end": "2020-07",
           "keywords": [
             "ruby",
             "ruby on rails",
