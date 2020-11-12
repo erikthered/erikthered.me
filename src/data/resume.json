@@ -58,7 +58,7 @@
             "aws"
           ],
           "highlights": [
-            "Developed REST APIs backing consumer and administrative frontends",
+            "Developed REST APIs backing consumer and administrative frontends using Kotlin and Spring Boot",
             "Enhanced Admin UI built with React and TypeScript",
             "Performed deployments to production and non-production environments",
             "Enhanced CI/CD pipelines using CircleCI"
