@@ -42,11 +42,37 @@
       "summary": "",
       "history": [
         {
+          "employer": "Matterport",
+          "url": "https://matterport.com",
+          "position": "Senior Staff Software Engineer",
+          "summary": "Platform engineer at leading spatial data company",
+          "start": "2020-12",
+          "keywords": [
+            "kotlin",
+            "vert.x",
+            "postgresql",
+            "typescript",
+            "javascript",
+            "angular",
+            "angularjs",
+            "aws",
+            "jenkins",
+            "foundationdb"
+          ],
+          "highlights": [
+            "Developed GraphQL and REST services to enable new platform features",
+            "Launched research dataset for 3D spaces in partnership with Facebook",
+            "Enhanced billing system integration, including implementing asynchronous updates",
+            "Implemented OAuth 2.0 authorization layer to enable integrations with third parties"
+          ]
+        },
+        {
           "employer": "HealthPrize Technologies",
           "url": "https://healthprize.com",
           "position": "Senior Software Engineer",
           "summary": "Software developer on medication adherance platform",
           "start": "2020-07",
+          "end": "2020-11",
           "keywords": [
             "kotlin",
             "java",
