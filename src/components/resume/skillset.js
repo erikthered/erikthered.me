@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ skillset }) => {
+const SkillSet = ({ skillset }) => {
   return (
     <li className="text-sm italic font-semibold">
       {skillset.name}:
@@ -17,3 +17,5 @@ export default ({ skillset }) => {
     </li>
   )
 }
+
+export default SkillSet;

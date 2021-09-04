@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-export default ({ node }) => {
+const Preview = ({ node }) => {
   return (
     <div key={node.id} className="my-2 p-2">
       <Link to={node.fields.slug} className="hover:no-underline">
@@ -15,3 +15,5 @@ export default ({ node }) => {
     </div>
   )
 }
+
+export default Preview;

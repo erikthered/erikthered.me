@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Job from '../components/resume/job'
 import SkillSet from '../components/resume/skillset'
 
-export default ({ data }) => {
+const Resume = ({ data }) => {
   const resume = data.resumeJson
   return (
     <div>
@@ -82,6 +82,8 @@ export default ({ data }) => {
     </div>
   )
 }
+
+export default Resume;
 
 export const query = graphql`
   {

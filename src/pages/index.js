@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import BlogPostPreview from '../components/blog/preview'
 import { graphql } from 'gatsby'
 
-export default ({ data }) => {
+const Index = ({ data }) => {
   return (
     <Layout>
       <div className="flex">
@@ -42,6 +42,8 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+export default Index;
 
 export const query = graphql`
   query IndexQuery {

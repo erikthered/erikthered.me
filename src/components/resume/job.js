@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ job }) => {
+const Job = ({ job }) => {
   return (
     <article className="p-2">
       <header>
@@ -24,3 +24,5 @@ export default ({ job }) => {
     </article>
   )
 }
+
+export default Job;

@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 
-export default ({ children, location }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -36,3 +36,5 @@ export default ({ children, location }) => (
     )}
   />
 )
+
+export default Layout;
