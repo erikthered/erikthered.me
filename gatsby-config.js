@@ -83,24 +83,26 @@ module.exports = {
                 })
               })
             },
-            query: `
-            {
-              allMarkdownRemark(filter: {frontmatter:{title: {ne: ""}}}, sort: { order: DESC, fields: [frontmatter___date] },
-              ) {
-                edges {
-                  node {
-                    excerpt
-                    html
-                    fields { slug }
-                    frontmatter {
-                      title
-                      date
-                    }
-                  }
-                }
-              }
-            }
-          `, // TODO filter this in a more meaningful way
+            query: `{
+  allMarkdownRemark(
+    filter: {frontmatter: {title: {ne: ""}}}
+    sort: {frontmatter: {date: DESC}}
+  ) {
+    edges {
+      node {
+        excerpt
+        html
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          date
+        }
+      }
+    }
+  }
+}`, // TODO filter this in a more meaningful way
             output: '/posts/rss.xml',
             title: "Your Site's RSS Feed",
           },
