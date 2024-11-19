@@ -1,6 +1,7 @@
 ---
 title: "Outfitting a developer in 2019"
 date: "2019-04-29"
+slug: "outfitting-a-developer-in-2019"
 ---
 
 At this point in my career I've changed jobs enough times that I'm starting to see certain patterns emerge. One of less good ones is how hardware (and sometimes software) is chosen for developers with little to no input from the devs themselves. Everybody works a little bit differently so it makes sense to provide some level of choice in what tools we use to do our work each day.

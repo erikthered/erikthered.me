@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        name: `blog`,
+        path: `${__dirname}/blog/`,
       },
     },
     {
@@ -102,7 +102,7 @@ module.exports = {
     }
   }
 }`, // TODO filter this in a more meaningful way
-            output: '/posts/rss.xml',
+            output: '/blog/rss.xml',
             title: "Your Site's RSS Feed",
           },
         ],

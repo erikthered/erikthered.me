@@ -1,6 +1,7 @@
 ---
 title: "Using git rebase for clean merges"
 date: "2019-03-25"
+slug: "git-rebase-merges"
 ---
 
 If you're doing software development on a team, it's very likely that you're using git for version control. One common problem I've seen is that it's quite easy to end up with a messy history full of useless (and sometimes confusing) merge commits.

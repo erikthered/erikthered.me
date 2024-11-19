@@ -10,17 +10,7 @@ const Index = ({ data }) => {
       <div className="flex">
         <section className="w-3/4 mr-12">
           <h2 className="font-bold">Latest Blog Posts:</h2>
-          {data.allFile.edges
-            .map(({ node: { childMarkdownRemark: node } }) => node)
-            .sort((a, b) => {
-              if (a.frontmatter.date > b.frontmatter.date) {
-                return -1
-              }
-              if (a.frontmatter.date < b.frontmatter.date) {
-                return 1
-              }
-              return 0
-            })
+          {data.allMarkdownRemark.nodes
             .map(node => (
               <BlogPostPreview node={node} key={node.id} />
             ))}
@@ -53,20 +43,14 @@ export const Head = () => (
 // TODO use allMarkdownRemark and filter
 export const query = graphql`
   query IndexQuery {
-    allFile(filter: { relativeDirectory: { eq: "posts" } }) {
-      totalCount
-      edges {
-        node {
-          childMarkdownRemark {
-            id
-            frontmatter {
-              title
-              date(formatString: "DD MMMM, YYYY")
-            }
-            fields {
-              slug
-            }
-          }
+    allMarkdownRemark(sort: { frontmatter: { date: DESC }}) {
+      nodes {
+        id
+        excerpt
+        frontmatter {
+          title
+          slug
+          date(formatString: "DD MMMM, YYYY")
         }
       }
     }
