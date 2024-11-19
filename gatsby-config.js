@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: `https://www.erikthered.me`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
     {

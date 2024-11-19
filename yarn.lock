@@ -6488,7 +6488,6 @@ __metadata:
     gatsby-link: "npm:^5.14.0"
     gatsby-plugin-feed: "npm:^5.14.0"
     gatsby-plugin-postcss: "npm:^6.14.0"
-    gatsby-plugin-react-helmet: "npm:^6.14.0"
     gatsby-plugin-sharp: "npm:^5.14.0"
     gatsby-plugin-typography: "npm:^5.14.0"
     gatsby-remark-images: "npm:^7.14.0"
@@ -6500,7 +6499,6 @@ __metadata:
     prettier: "npm:^3.3.3"
     react: "npm:^18.0.0"
     react-dom: "npm:^18.0.0"
-    react-helmet: "npm:^6.1.0"
     react-typography: "npm:^0.16.23"
     tailwindcss: "npm:^2.2.19"
     typography: "npm:^0.16.24"
@@ -8011,18 +8009,6 @@ __metadata:
     gatsby: ^5.0.0-next
     postcss: ^8.0.5
   checksum: 10c0/4618c52830d2296ba9b52c95e0155836c07c90e2b6eca216bf5f0a460201d53e6c79e8ee6613194ecc180511ff9cc1ee357d021cbe7269ba7bb1ad8d95b816ab
-  languageName: node
-  linkType: hard
-
-"gatsby-plugin-react-helmet@npm:^6.14.0":
-  version: 6.14.0
-  resolution: "gatsby-plugin-react-helmet@npm:6.14.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.20.13"
-  peerDependencies:
-    gatsby: ^5.0.0-next
-    react-helmet: ^5.1.3 || ^6.0.0
-  checksum: 10c0/14d09b16bdb1b7c8a67a6f6844b60c63ab5de948ba025e8ea24a3e17fb06290958c201815d39397f532cb9a719879a4f7fd08bc90bdbe527130e87d58717419f
   languageName: node
   linkType: hard
 
@@ -13095,17 +13081,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.7.2":
-  version: 15.7.2
-  resolution: "prop-types@npm:15.7.2"
-  dependencies:
-    loose-envify: "npm:^1.4.0"
-    object-assign: "npm:^4.1.1"
-    react-is: "npm:^16.8.1"
-  checksum: 10c0/4eb527daec962acd789c621ce3234a6f077ce202049291642d8efd13b19805adf07227672c570531cdb56a357640ea27e336527682b7ed4be0c5b392a01662ab
-  languageName: node
-  linkType: hard
-
 "prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
@@ -13353,28 +13328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-fast-compare@npm:^3.1.1":
-  version: 3.2.0
-  resolution: "react-fast-compare@npm:3.2.0"
-  checksum: 10c0/2a7d75ce9fb5da1e3c01f74a5cd592f3369a8cc8d44e93654bf147ab221f430238e8be70677e896f2bfcb96a1cb7a47a8d05d84633de764a9d57d27005a4bb9e
-  languageName: node
-  linkType: hard
-
-"react-helmet@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "react-helmet@npm:6.1.0"
-  dependencies:
-    object-assign: "npm:^4.1.1"
-    prop-types: "npm:^15.7.2"
-    react-fast-compare: "npm:^3.1.1"
-    react-side-effect: "npm:^2.1.0"
-  peerDependencies:
-    react: ">=16.3.0"
-  checksum: 10c0/1d2831d9c3b4f5c91f020076aeb6502437a4788077d0c438421e466eb9633d5dc2aacedf7b779a970b807d61cf87793c5ff76ee3190a185d71c90b5cfb367e96
-  languageName: node
-  linkType: hard
-
-"react-is@npm:^16.13.1, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
@@ -13399,15 +13353,6 @@ __metadata:
     react: 0.0.0-experimental-c8b778b7f-20220825
     webpack: ^5.59.0
   checksum: 10c0/7b59cdaba01a13060fef682a06d562bfd0febe6452643098ef52d49032d95d2e5149fb504917cc286b573b8795fc8bcefbfe896f122ec5ed741d280d43774f8a
-  languageName: node
-  linkType: hard
-
-"react-side-effect@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "react-side-effect@npm:2.1.1"
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.0
-  checksum: 10c0/95386665f37072558dad2be4afad346848af9d73470cde0125d0450c06ab786244cf66217cc96346a702e60d09f35883160cbd5411f4745d3075d76dbdc394dd
   languageName: node
   linkType: hard
 

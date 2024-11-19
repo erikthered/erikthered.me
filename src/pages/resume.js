@@ -1,14 +1,13 @@
-import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import React from 'react'
 import Job from '../components/resume/job'
 import SkillSet from '../components/resume/skillset'
+import { SEO } from '../components/seo'
 
 const Resume = ({ data }) => {
   const resume = data.resumeJson
   return (
     <div>
-      <Helmet title="Erik Nelson's Resume" />
       <div className="mx-4 print:m-0">
         <div className="flex">
           <article className="w-1/2 mr-2 my-2 py-2 px-4">
@@ -84,6 +83,10 @@ const Resume = ({ data }) => {
 }
 
 export default Resume;
+
+export const Head = () => (
+  <SEO title="Erik Nelson's Resume"/>
+)
 
 export const query = graphql`
   {

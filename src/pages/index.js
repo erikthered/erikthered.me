@@ -1,7 +1,8 @@
-import React from 'react'
-import Layout from '../components/layout'
-import BlogPostPreview from '../components/blog/preview'
 import { graphql } from 'gatsby'
+import React from 'react'
+import BlogPostPreview from '../components/blog/preview'
+import Layout from '../components/layout'
+import { SEO } from '../components/seo'
 
 const Index = ({ data }) => {
   return (
@@ -45,6 +46,11 @@ const Index = ({ data }) => {
 
 export default Index;
 
+export const Head = () => (
+  <SEO/>
+)
+
+// TODO use allMarkdownRemark and filter
 export const query = graphql`
   query IndexQuery {
     allFile(filter: { relativeDirectory: { eq: "posts" } }) {

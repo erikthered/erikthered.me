@@ -18,37 +18,3 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
-
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
-  return new Promise((resolve, reject) => {
-    graphql(`
-      {
-        allFile(filter: { relativeDirectory: { eq: "posts" } }) {
-          edges {
-            node {
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-              }
-            }
-          }
-        }
-      }
-    `).then(result => {
-      result.data.allFile.edges.forEach(
-        ({ node: { childMarkdownRemark: node } }) => {
-          createPage({
-            path: node.fields.slug,
-            component: path.resolve(`./src/components/blog/post.js`),
-            context: {
-              slug: node.fields.slug,
-            },
-          })
-        }
-      )
-      resolve()
-    })
-  })
-}
